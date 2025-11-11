@@ -14,7 +14,6 @@ CREATE TABLE MenuItems(
     );
 ```
 
-
 ### Q2. Write SQL queries for the following operations on the MenuItems table:
 
 * Insert three menu items.
@@ -32,7 +31,6 @@ INSERT INTO MenuItems VALUES(1, "Pizza", 250, "fast food"),
 UPDATE MenuItems SET price = 50 WHERE item_id = 1;
 DELETE FROM MenuItems WHERE item_id = 1;
 
-
 SELECT 
 AVG(price) as average_price,
 SUM(price) as total_price
@@ -47,8 +45,8 @@ FROM MenuItems;
 +---------------+-------------+
 ```
 
+### Output: SELECT * FROM MenuItems; 
 
-### Output: SELECT * FROM MenuItems;
 ```sql
 +---------+-----------+-------+-----------+
 | item_id | item_name | price | category  |
