@@ -2,7 +2,7 @@
 
 import { orders } from "../../../lib/orders.js";
 
-// GET - List all orders
+// GET 
 export async function GET() {
   return Response.json(orders);
 }
