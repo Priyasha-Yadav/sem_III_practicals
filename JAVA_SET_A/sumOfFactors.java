@@ -17,3 +17,4 @@ class sumOfFactors {
         System.out.println(sum);
     }
 }
+
